@@ -1,0 +1,8 @@
+[browser]
+# 실행 시 사용 통계를 외부로 전송하지 않음
+gatherUsageStats = false
+
+[server]
+port = 8501
+# 첫 실행 시 이메일 입력 안내를 건너뜀
+headless = false

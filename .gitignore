@@ -1,0 +1,20 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+inputs/*
+!inputs/.gitkeep
+outputs/*
+!outputs/.gitkeep
+.DS_Store
+
+# 사용자/사내 환경값 (공개 금지) — 각자 .example을 복사해 생성
+settings.json
+log_db_config.json
+
+# 백업 파일
+*.bak
+
+# 샘플/생성 xlsx (사내 DRM·내부정보 포함 가능 — 공개 금지)
+samples/*.xlsx
+*.xlsx

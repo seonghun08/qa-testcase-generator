@@ -1,0 +1,9 @@
+{
+  "_comment": "로그/DB 접속 정보. 이 파일을 복사해 log_db_config.json 으로 저장하고 사내 실제 값으로 채우세요. log_db_config.json 은 .gitignore 대상(공개 안 됨).",
+  "LOG_APP_LABEL": "WAS 접속",
+  "LOG_SERVER": "<WAS_HOST:PORT>",
+  "LOG_DIR": "<TOMCAT_LOG_DIR>",
+  "DB_LABEL": "테스트DB 접속",
+  "DB_SERVER": "<DB_HOST:PORT>",
+  "DB_SID": "<DB_SID>"
+}
